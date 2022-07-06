@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Steven Lambrinos N01429063 RNA -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/camera"
+        android:title="hello"/>
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
