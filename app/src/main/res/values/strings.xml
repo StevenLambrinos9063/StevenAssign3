@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">StevenAssign3</string>
+    <!-- Steven Lambrinos n01429063 section A -->
+    <string name="app_name">StevenLambrinosN01429063</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+        <string name="icon1">icon</string>
+        <string name="button">open</string>
+        <string name="button1">password</string>
+        <string name="stev_pass">Enter Password</string>
 </resources>

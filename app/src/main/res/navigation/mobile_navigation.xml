@@ -15,7 +15,7 @@
         android:id="@+id/navigation_dashboard"
         android:name="steven.lambrinos.n01429063.a3.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/steventab" />
 
     <fragment
         android:id="@+id/navigation_notifications"

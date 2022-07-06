@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.30480072463768115" />
-        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.30480072463768115" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.30480072463768115" />
+        <entry key="app/src/main/res/layout/steventab.xml" value="0.2674884077431499" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2563191731770833" />
       </map>
     </option>
   </component>
