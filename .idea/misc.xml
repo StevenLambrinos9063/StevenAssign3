@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/screenshot_background.xml" value="0.125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.30480072463768115" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.30480072463768115" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.30480072463768115" />
+        <entry key="app/src/main/res/layout/lambrinostab.xml" value="0.24347534179687502" />
         <entry key="app/src/main/res/layout/steventab.xml" value="0.2674884077431499" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2563191731770833" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/porsche logo.xml" value="0.125" />
       </map>
     </option>
   </component>
