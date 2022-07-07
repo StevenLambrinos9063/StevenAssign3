@@ -8,4 +8,16 @@
         <string name="button">open</string>
         <string name="button1">password</string>
         <string name="stev_pass">Enter Password</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="name">Steven Lambrinos N01429063</string>
+    <string name="question">Do you really want to leave?</string>
+    <string name="confirm">Confirm</string>
+    <string name="clear_canvas">Clear Canvas</string>
+    <string name="stevrb1">Small</string>
+    <string name="stevrb2">Medium</string>
+    <string name="stevrb3">Large</string>
+    <string name="stevrb4">Red</string>
+    <string name="stevrb5">Green</string>
+    <string name="stevrb6">blue</string>
 </resources>
