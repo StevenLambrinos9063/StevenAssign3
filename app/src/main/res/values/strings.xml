@@ -20,4 +20,6 @@
     <string name="stevrb4">Red</string>
     <string name="stevrb5">Green</string>
     <string name="stevrb6">blue</string>
+    <string name="firstname">Steven</string>
+    <string name="lastname">Lambrinos</string>
 </resources>
