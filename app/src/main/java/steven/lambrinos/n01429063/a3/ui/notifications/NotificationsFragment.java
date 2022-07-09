@@ -1,31 +1,31 @@
 package steven.lambrinos.n01429063.a3.ui.notifications;
 
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import steven.lambrinos.n01429063.a3.databinding.ActivityMainBinding;
+import steven.lambrinos.n01429063.a3.databinding.FragmentNotificationsBinding;
 
-public class stevenFragment extends Fragment {
+public class NotificationsFragment extends Fragment {
 
-    private ActivityMainBinding binding;
+    private FragmentNotificationsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        stevenViewModel notificationsViewModel =
-                new ViewModelProvider(this).get(stevenViewModel.class);
+        NotificationsViewModel notificationsViewModel =
+                new ViewModelProvider(this).get(NotificationsViewModel.class);
 
-        binding = ActivityMainBinding.inflate(inflater, container, false);
+        binding = FragmentNotificationsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-//        final TextView textView = binding.textNotifications;
-//        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textNotifications;
+        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
