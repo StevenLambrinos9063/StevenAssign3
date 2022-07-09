@@ -3,7 +3,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:icon="@drawable/screenshot_background"
+        android:icon="@mipmap/ic_launcher"
         android:id="@+id/camera"
         android:title="hello"/>
     <item

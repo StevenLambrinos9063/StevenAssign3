@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="steven.lambrinos.n01429063.a3.ui.home.n01429063Fragment"
+        android:name="steven.lambrinos.n01429063.a3.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/n01429063tab" />
+        tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="steven.lambrinos.n01429063.a3.ui.dashboard.LambrinosFragment"
+        android:name="steven.lambrinos.n01429063.a3.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/steventab" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="steven.lambrinos.n01429063.a3.ui.notifications.stevenFragment"
+        android:name="steven.lambrinos.n01429063.a3.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/lambrinostab" />
+        tools:layout="@layout/fragment_notifications" />
 </navigation>
